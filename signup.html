@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Login and Signup</title>
+    
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.form-container {
+    width: 45%;
+}
+
+h2 {
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff9900;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e68a00;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: #ff9900;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}   
+    @media screen and (max-width: 600px) {
+  .test{
+   overflow: scroll;
+  }
+}
+
+.img{
+    width: 120px;
+    height: 100px;
+    margin-top: 0px;
+    
+}
+
+
+
+    .button {
+  background-color: white; 
+  color: black; 
+  border: 2px solid red;
+  width: 100%
+  border-radius: 4px;
+  
+ margin-top: 20px;
+  
+}
+
+.button:hover {
+  background-color: #f44336;
+  color: black;
+}
+
+        .fotter1{
+            color:white;
+            font-size: 15px;
+            
+        }
+        a{
+            font-size: 14px;
+            text-decoration: none;
+            color: grey;
+
+}
+.h6{
+    font-size: 14.5px;
+    color: #3A3534;
+    padding-left: 15px;
+}
+</style>
+<body>
+
+
+
+
+    <!-- top header start -->
+      <div class="container">
+      <div class="row py-3" style="width: 90%; margin: auto;">
+      <div class="col-md-2"> <img src="image/logo2.jpg"  class="img">
+      </div>
+      
+      
+        <div class="form-container" id="signupForm" style="display:;">
+            <h2>Sign Up</h2>
+            <form id="signup">
+                <label for="signupName">Full Name</label>
+                <input type="text" id="signupName" name="signupName" required>
+
+                <label for="signupEmail">Email</label>
+                <input type="email" id="signupEmail" name="signupEmail" required>
+
+                <label for="signupPassword">Password</label>
+                <input type="password" id="signupPassword" name="signupPassword" required>
+
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+                <button type="submit">Sign Up</button>
+                <p>Already have an account? <a href="testing.html">Login</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function showSignupForm() {
+    document.getElementById('loginForm').style.display = 'none';
+    document.getElementById('signupForm').style.display = 'block';
+}
+
+// Handle the form submissions
+document.getElementById('login').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const email = document.getElementById('loginEmail').value;
+    const password = document.getElementById('loginPassword').value;
+    
+    // Add validation and API calls here
+    alert(`Logged in with email: ${email}`);
+});
+
+document.getElementById('signup').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const name = document.getElementById('signupName').value;
+    const email = document.getElementById('signupEmail').value;
+    const password = document.getElementById('signupPassword').value;
+    const confirmPassword = document.getElementById('confirmPassword').value;
+    
+    if (password !== confirmPassword) {
+        alert("Passwords do not match!");
+        return;
+    }
+    
+    // Add validation and API calls here
+    alert(`Signed up with name: ${name}, email: ${email}`);
+});
+    </script>
+</body>
+</html>

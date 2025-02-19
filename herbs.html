@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Online Grocery Shopping and</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="icon" type="image/x-icon" href="image/logo.png">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+  
+  <link rel="stylesheet"  href="css/flipkart.css">
+
+  <style type="text/css">
+    @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+} 
+  @media screen and (max-width: 600px) {
+  .test{
+   overflow: scroll;
+  }
+}
+
+.img{
+  width: 120px;
+  height: 150px;
+  margin-top: -60px;
+  
+}
+
+.img1{
+  width: 120px;
+  height: 60px;
+  padding-top: 8px;
+  margin-bottom: -10px;
+}
+a{
+  text-decoration: none;
+  color: black;
+
+  
+}
+.img0{
+      width: 80%;
+      height: 220px;
+      margin-left: 20px;
+      padding-top: 20px;
+      
+    }
+
+
+  .button {
+  background-color: white; 
+  color: black; 
+  border: 2px solid red;
+  width: 100%
+  border-radius: 4px;
+  
+ margin-top: 20px;
+  
+}
+
+.button:hover {
+  background-color: #f44336;
+  color: black;
+}
+.img2{
+      width: 80%;
+      height: 220px;
+      padding-top: 20px;
+      border-radius: 24px;
+
+      
+    }
+    .fotter1{
+      color:white;
+      font-size: 15px;
+      
+    }
+    a{
+      font-size: 14px;
+      text-decoration: none;
+      color: grey;
+
+  
+    }
+.image{
+  width: 100%;
+  height: 200px;
+  padding-top: 20px;
+  border-radius: 20px;
+
+}
+
+
+</style>
+
+</head>
+<body>
+
+
+  <!-- top header start -->
+    <div class="container">
+    <div class="row py-3" style="width: 90%; margin: auto;">
+    <div class="col-md-2"> <a href="testing.html"><img src="image/logo2.jpg" class="img"></a>
+    </div>
+      <div class="col-md-4">
+        <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search for products,Brand and more"
+      aria-label="Search">
+      </form>
+        </div>
+
+ <div class="col-2 mt-1">
+            <div class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-regular fa-circle-user"></i><span>Login</span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><button class="dropdown-item" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button></li>
+                </ul>
+            </div>
+
+            <!-- Login Modal -->
+            <div class="modal fade" id="loginModal" tabindex="1" aria-labelledby="loginModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form id="loginForm">
+                                <div class="mb-3">
+                                    <label for="contactNumber" class="form-label">Contact Number</label>
+                                    <input type="tel" class="form-control" id="contactNumber" placeholder="Enter your contact number">
+                                </div>
+                            <div class="mb-3">
+                                    <label for="otp" class="form-label">OTP</label>
+                                    <input type="text" class="form-control" id="otp" placeholder="Enter your OTP" required>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Login</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+      <div class="col-2 mt-1 ps-2"> 
+    <i class="fa-solid fa-cart-shopping fa-lg"></i>
+    <a href="#"><span class="ps-2"> Cart</span></a></div>
+
+  <div class="col-2 mt-1 mb-4"> 
+    <i class="fa-solid fa-compass fa-lg"></i>
+    <span class="ps-1"> Select Location</span></div>
+  </div>
+
+
+    
+      
+      </b>
+      </div>
+      </div>
+      </div>
+
+
+
+      <!-- top header end-->
+<div class="container bg-light mt-3 pt-2">
+<div class="row ms-3 me-5">
+<div class="d-flex  justify-content-between test">
+<div class="col-1">
+<a href="freshvegetable.html">Vegetables</a>
+</div>
+<div class="col-1 ms-2">
+<a href="tea.html">Tea</a>
+</div>
+
+<div class="col-1 ms-2">
+<a href="ghee.html">Ghee</a>
+</div>
+
+<div class="col-1">
+<a href="milk.html">Milk</a>
+</div>
+
+
+<div class="col-1">
+<a href="diaper.html">Baby Diaper</a>
+</div>
+
+
+<div class="col-1">
+<a href="fruit.html">Fruits</a>
+</div>
+
+
+<div class=" col-1">
+<a href="chocolate.html">Chocolates</a>
+</div>
+</b> 
+</div>
+</a>
+</b>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container">
+  <h2 class="py-3">Herbs</h2>
+  <div class="row">
+
+    <div class="col-md-3 py-4">
+ <div class="card h-100">
+ <div class="card-img">
+ <img src="image/herbs1.jpg" class="img0">
+ <p class="ms-3">fresho!</p>
+ <h6 class="card-title ms-2">Capsicum - Green (Loose)</h6><p class="card-text ms-3"><strong>Rs56</strong>
+<del>76.71</del></p>
+</div>
+<button type="button" class="button">Add me</button>
+
+</div>
+
+</div>
+
+
+
+
+
+    <div class="col-md-3 py-4">
+ <div class="card h-100">
+ <div class="card-img">
+ <img src="image/herbs2.jpg" class="img0">
+ <p class="ms-3">fresho!</p>
+ <h6 class="card-title ms-2">Carrot - Orange (Loose)</h6><p class="card-text ms-3"><strong>Rs92</strong><del class="ms-1">126.23</del></p>
+</div>
+ <button type="button" class="button">Add me</button>
+</div>
+</div>
+
+    <div class="col-md-3 py-4">
+ <div class="card h-100">
+ <div class="card-img">
+ <img src="image/herbs3.jpg" class="img0">
+ <p class="ms-3">fresho!</p>
+ <h6 class="card-title ms-2">Cauliflower</h6><p class="card-text ms-3"><strong>Rs46</strong>
+<del>61.01</del></p>
+</div>
+<button type="button" class="button">Add me</button>
+</div>
+</div>
+
+    <div class="col-md-3 py-4">
+ <div class="card h-100">
+ <div class="card-img">
+ <img src="image/herbs4.jpg" class="img0">
+ <p class="ms-3">fresho!</p>
+ <h6 class="card-title ms-2">Coriander Leaves</h6><p class="card-text ms-3"><strong>Rs194</strong>
+<del>265.75</del>
+</p>
+</div>
+<button type="button" class="button">Add me</button>
+</div>
+</div>
+</div>
+</div>
+
+
+
+ <div class="container">
+  <div class="row">
+
+    <div class="col-md-3 py-4">
+ <div class="card h-100">
+ <div class="card-img">
+ <img src="image/herbs5.jpg" class="img0">
+ <p class="ms-3">fresho!</p>
+ <h6 class="card-title ms-2">Cucumber</h6><p class="card-text ms-3"><strong>Rs490</strong></p>
+</div>
+<button type="button" class="button">Add me</button>
+</div>
+</div>
+
+    <div class="col-md-3 py-4">
+ <div class="card h-100">
+ <div class="card-img">
+ <img src="image/herbs6.jpg" class="img0">
+ <p class="ms-3">fresho!</p>
+ <h6 class="card-title ms-2">Ladies' Fingers (Loose)</h6><p class="card-text ms-3"><strong>Rs42</strong>
+<del class="ms-1">57.53</del></p>
+</div>
+<button type="button" class="button">Add me</button>
+</div>
+</div>
+
+    <div class="col-md-3 py-4">
+ <div class="card h-100">
+ <div class="card-img">
+ <img src="image/herbs7.jpg" class="img0">
+ <p class="ms-3">fresho!</p>
+ <h6 class="card-title ms-2">Onion</h6><p class="card-text ms-3"><strong>Rs340</strong>
+<del>493.15</del></p>
+</div>
+<button type="button" class="button">Add me</button>
+</div>
+</div>
+
+    <div class="col-md-3 py-4">
+ <div class="card h-100">
+ <div class="card-img">
+ <img src="image/herbs8.jpg" class="img0">
+ <p class="ms-3">fresho!</p>
+ <h6 class="card-title ms-2">Potato</h6><p class="card-text ms-3"><strong>Rs152</strong>
+<del>190</del>
+</p>
+</div>
+<button type="button" class="button">Add me</button>
+</div>
+</div>
+</div>
+</div>
+
+<!-- 33333333333333333333333 -->
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-md-3 py-4">
+ <div class="card h-100">
+ <div class="card-img">
+ <img src="image/herbs9.jpg" class="img0">
+ <p class="ms-3">fresho!</p>
+ <h6 class="card-title ms-2">Broccoli</h6><p class="card-text ms-3"><strong>Rs38</strong>
+<del>57.71</del></p>
+</div>
+<button type="button" class="button">Add me</button>
+</div>
+</div>
+<div class="col-md-3 py-4">
+ <div class="card h-100">
+ <div class="card-img">
+ <img src="image/herbs10.jpg" class="img0">
+ <p class="ms-3">fresho!</p>
+ <h6 class="card-title ms-2">Mushrooms - Button</h6><p class="card-text ms-3"><strong>Rs52</strong><del class="ms-1">80.23</del></p>
+</div>
+ <button type="button" class="button">Add me</button>
+</div>
+</div>
+
+    <div class="col-md-3 py-4">
+ <div class="card h-100">
+ <div class="card-img">
+ <img src="image/herbs11.jpg" class="img0">
+ <p class="ms-3">fresho!</p>
+ <h6 class="card-title ms-2">Sweet Corn (Loose)</h6><p class="card-text ms-3"><strong>Rs34</strong>
+<del>44.01</del></p>
+</div>
+<button type="button" class="button">Add me</button>
+</div>
+</div>
+
+    <div class="col-md-3 py-4">
+ <div class="card h-100">
+ <div class="card-img">
+ <img src="image/herbs12.jpg" class="img0">
+ <p class="ms-3">fresho!</p>
+ <h6 class="card-title ms-2">Lettuce - Iceberg</h6><p class="card-text ms-3"><strong>Rs48.93</strong>
+<del>64.38</del>
+</p>
+</div>
+<button type="button" class="button">Add me</button>
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- 444444444444444444444 -->
+<div class="container">
+  <div class="row">
+
+    <div class="col-md-3 py-4">
+ <div class="card h-100">
+ <div class="card-img">
+ <img src="image/herbs13.jpg" class="img0">
+ <p class="ms-3">fresho!</p>
+ <h6 class="card-title ms-2">Baby Potato (Loose)</h6><p class="card-text ms-3"><strong>Rs62.46</strong>
+<del>82.19</del></p>
+</div>
+<button type="button" class="button">Add me</button>
+
+</div>
+
+</div>
+
+
+
+
+
+    <div class="col-md-3 py-4">
+ <div class="card h-100">
+ <div class="card-img">
+ <img src="image/herbs14.jpg" class="img0">
+ <p class="ms-3">fresho!</p>
+ <h6 class="card-title ms-2">Mint - Organically Grown</h6><p class="card-text ms-3"><strong>Rs106.19</strong><del class="ms-1">139.73</del></p>
+</div>
+ <button type="button" class="button">Add me</button>
+</div>
+</div>
+
+    <div class="col-md-3 py-4">
+ <div class="card h-100">
+ <div class="card-img">
+ <img src="image/herbs15.jpg" class="img0">
+ <p class="ms-3">fresho!</p>
+ <h6 class="card-title ms-2">Dill Leaves</h6><p class="card-text ms-3"><strong>Rs19.5</strong>
+<del>26.71</del></p>
+</div>
+<button type="button" class="button">Add me</button>
+</div>
+</div>
+
+    <div class="col-md-3 py-4">
+ <div class="card h-100">
+ <div class="card-img">
+ <img src="image/herbs16.jpg" class="img0">
+ <p class="ms-3">fresho!</p>
+ <h6 class="card-title ms-2">Sweet Potato (Loose)</h6><p class="card-text ms-3"><strong>Rs106.19 </strong>
+<del>139.75</del>
+</p>
+</div>
+<button type="button" class="button">Add me</button>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+
+    <div class="col-md-3 py-4">
+ <div class="card h-100">
+ <div class="card-img">
+ <img src="image/herbs17.jpg" class="img0">
+ <p class="ms-3">fresho!</p>
+ <h6 class="card-title ms-2">Baby Potato (Loose)</h6><p class="card-text ms-3"><strong>Rs62.46</strong>
+<del>82.19</del></p>
+</div>
+<button type="button" class="button">Add me</button>
+
+</div>
+
+</div>
+
+
+
+
+
+    <div class="col-md-3 py-4">
+ <div class="card h-100">
+ <div class="card-img">
+ <img src="image/herbs18.jpg" class="img0">
+ <p class="ms-3">fresho!</p>
+ <h6 class="card-title ms-2">Mint - Organically Grown</h6><p class="card-text ms-3"><strong>Rs106.19</strong><del class="ms-1">139.73</del></p>
+</div>
+ <button type="button" class="button">Add me</button>
+</div>
+</div>
+
+    <div class="col-md-3 py-4">
+ <div class="card h-100">
+ <div class="card-img">
+ <img src="image/herbs19.jpg" class="img0">
+ <p class="ms-3">fresho!</p>
+ <h6 class="card-title ms-2">Dill Leaves</h6><p class="card-text ms-3"><strong>Rs19.5</strong>
+<del>26.71</del></p>
+</div>
+<button type="button" class="button">Add me</button>
+</div>
+</div>
+
+    <div class="col-md-3 py-4">
+ <div class="card h-100">
+ <div class="card-img">
+ <img src="image/herbs20.jpg" class="img0">
+ <p class="ms-3">fresho!</p>
+ <h6 class="card-title ms-2">Sweet Potato (Loose)</h6><p class="card-text ms-3"><strong>Rs106.19 </strong>
+<del>139.75</del>
+</p>
+</div>
+<button type="button" class="button">Add me</button>
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- fotter  section start -->
+<div class="container-fluid bg-dark">
+
+  <div class="row py-4 px-5">
+    <div class="col-3">
+      <span class="fotter1">BigBasket</span><br>
+      <a href="aboutus.html">About us</a><br>
+      <a href="news.html">In News</a><br>
+      <a href="greenbigbasket.html">Green bigbasket</a><br>
+      <a href="privacy.html">Privacy Policy</a><br>
+      <a href="terms.html">Terms and Conditions</a><br>
+      <a href="bbinstant.html">bb Instant</a><br>
+            
+  </div>
+
+  <div class="col-3 border-end ms-5">
+    <span class="fotter1">Help</span><br>
+        <a href="faq.html">FAQs</a><br>
+         <a href="contact.html">Contact Us</a><br>
+         <a href="bbfaq.html">bb Wallet FAQs</a><br>
+         <a href="bbt&c.html">bb Wallet T&Cs</a><br>
+         
+     </div>
+     <div class="col-4 px-5 py-5">
+      <span class="fotter1"><h1>Big Basket</h1><br>
+       <a href="https://www.facebook.com/pages/Bigbasketcom/139311472851666"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://twitter.com/Bigbasket_com" class="ms-3"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://www.instagram.com/bigbasketcom/" class="ms-3"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://in.pinterest.com/bigbasketcom/" class="ms-3"><i class="fa-brands fa-pinterest" style="color: #c0c1c4;"></i></a>
+</span>
+</div>
+</div>
+</div>
+<div class="container-fluid bg-dark fotter1 border-top">
+Copyright © 2024-2025 Smartmarket Grocery Supplies Pvt Ltd
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
